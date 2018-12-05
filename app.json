@@ -1,7 +1,7 @@
 {
-  "name": "V2ray",
+  "name": "smallsimpleapp",
   "description": "deploy V2ray to Heroku.",
-  "keywords": ["V2ray"],
+  "keywords": ["Simple"],
   "env": {
     "VER": {
        "description": "输入v2ray Core 版本号（latest表示最新版本）",
@@ -9,14 +9,14 @@
      }, 
     "UUID": {
        "description": "Vmess协议默认UUID，请输入自己的UUID",
-       "value": "8fd6dadc-0d59-4ae7-93bb-e6b8a231c2c2"
+       "value": "8deed580-10b1-4b07-bf03-97043c32d1bf"
      },
     "V2RAY_RAY_BUFFER_SIZE": {
        "description": "每个连接的缓存大小，单位MB",
        "value": "10"
      }
   },
-  "website": "https://github.com/wangyi2005/v2ray-heroku",
-  "repository": "https://github.com/wangyi2005/v2ray-heroku",
+  "website": "https://github.com",
+  "repository": "https://github.com",
   "stack": "container"
  }
